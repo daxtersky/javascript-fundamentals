@@ -8,19 +8,19 @@ const multiplyTwoNumbers = (a, b) => {
 // multiplyTwoNumbers(3,4);
 
 // * CLASSIC FUNCTIONS with BIND
-function multiplyTwoNumbersExpression(a, b) {
+function multiplyTwoNumbersDeclaration(a, b) {
   console.log(`${a} * ${b} is ${a * b}`);
 }
-const multiplyTwoNumbersDeclaration = function(a, b) {
+const multiplyTwoNumbersExpression = function(a, b) {
   console.log(`${a} * ${b} is ${a * b}`);
 }
 
-const multiplyByTwoExpression = multiplyTwoNumbersExpression.bind(this, 2); // !
-const multiplyByTwoDeclaration = multiplyTwoNumbersDeclaration.bind(this, 2); // !
-// multiplyByTwoExpression(3);
-// multiplyByTwoExpression(5);
+const multiplyByTwoExpression = multiplyTwoNumbersDeclaration.bind(this, 2); // !
+const multiplyByTwoDeclaration = multiplyTwoNumbersExpression.bind(this, 2); // !
 // multiplyByTwoDeclaration(3);
 // multiplyByTwoDeclaration(5);
+// multiplyByTwoExpression(3);
+// multiplyByTwoExpression(5);
 
 // * CLASSIC FUNCTIONS with CLOSURE
 function multiplyClosure(a) {
