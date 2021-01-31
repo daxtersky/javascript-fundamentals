@@ -1,6 +1,6 @@
 # Code basics
 
-One place for me as a beginner Web Developer to gather all basic coding principles, code challenges etc. everything needed to remember or to train.
+One place for me as a developing Web Developer to gather all basic coding principles, code challenges etc. everything needed to remember or to train.
 
 ## Motivation
 
