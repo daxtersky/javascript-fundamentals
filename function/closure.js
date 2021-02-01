@@ -8,3 +8,6 @@ function outer(){
   inner();
 }
 outer();
+
+// https://alligator.io/js/closures/
+// https://scotch.io/tutorials/understanding-scope-in-javascript#toc-closures
