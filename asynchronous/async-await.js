@@ -1,9 +1,8 @@
-// ! https://dev.to/rajatmehra05/what-is-async-await-127p
-
-
 // * ASYNC AWAIT
+
+// ! https://dev.to/rajatmehra05/what-is-async-await-127p
 // 1
-async function getInfo(){
+async function getInfo() {
   console.log('a');
   await setTimeout(() => {
     console.log('b');
@@ -14,11 +13,11 @@ async function getInfo(){
 
 // 2
 async function greeting() {
-  console.log('Hello...', );
+  console.log('Hello...',);
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => resolve("...world!"), 1000);
   });
   const result = await promise;
   console.log(result);
 }
-greeting();
+  // greeting();

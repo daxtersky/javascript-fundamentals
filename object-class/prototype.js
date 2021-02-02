@@ -14,3 +14,5 @@ function func() {
 // console.log(typeof func.__proto__, '/', func.__proto__);
 // console.log(typeof func.__proto__.__proto__, '/', func.__proto__.__proto__);
 // console.log(typeof func.__proto__.__proto__.__proto__, '/', func.__proto__.__proto__.__proto__);
+
+// http://slides.com/agatamalec-1/znajdz-swoje-korzenie-dziedziczenie-w-javascript-2#/17
