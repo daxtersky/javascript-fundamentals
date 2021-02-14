@@ -1,21 +1,29 @@
 // * TYPES
 
-// https://javascript.info/types
-// https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c
+// ! https://javascript.info/types
+// ! https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c
+// ! https://kursjs.pl/kurs/super-podstawy/typy-danych.php
 
-// primitive
-let symbolVar: Symbol;
-// objects, reference (don't have real value, only memory reference),
+// * PRIMITIVE TYPES, they contain a value
+  // number,
+  // string,
+  // boolean,
+  // undefined,
+  // null,
+  // bigint,
+  // symbol
 
-// falsy
-null
-undefined
-''
-NaN
-// truthy
+let x; // undefined
+console.log(x);
 
-let a = 2;
-let b = a;
-a = 3;
-console.log(a); // 3
-console.log(b); // 2
+// * OBJECTS, they don't have real value, only memory reference
+const oldObject = { prop: 'Initial value' };
+const newObject = oldObject;
+oldObject.prop = 'Changed value!';
+console.log(newObject);
+
+// * literał vs konstuktor
+const literal = 'literal';
+const konstuktor = new String('konstuktor'); // Number Boolean Array - constructors of primitive types
+console.log(typeof literal); // object!
+console.log(typeof konstuktor); // object!

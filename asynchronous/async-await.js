@@ -1,5 +1,5 @@
 // * ASYNC AWAIT
-const fetch = require('node-fetch'); // * make sure to call "node async-await.js" in this folder!!!!!
+const fetch = require('node-fetch'); // * make sure to call "npm i" and "node async-await.js" in this folder!!!!!
 
 // ! https://dev.to/rajatmehra05/what-is-async-await-127p
 // 1
