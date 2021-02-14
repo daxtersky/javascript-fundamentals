@@ -4,7 +4,7 @@
 
 const numbers = [1, 2, 3, 1, 2, 3, 1, 2, 3];
 
-// INDEXOF
+// 1. INDEXOF
 const uniqueNumbers1 = [];
 for (const number of numbers) {
   if (uniqueNumbers1.indexOf(number) < 0) {
@@ -13,10 +13,10 @@ for (const number of numbers) {
 }
 console.log(uniqueNumbers1);
 
-// SET
+// 2. SET
 const uniqueNumbers2 = Array.from(new Set(numbers));
 console.log(uniqueNumbers2);
 
-// SORT & ARRAY
+// 3. SORT & ARRAY
 const uniqueNumbers3 = numbers.sort((a, b) => a - b).filter((number, index, array) => number !== array[index + 1]);
 console.log(uniqueNumbers3);
