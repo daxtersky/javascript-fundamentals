@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="use-capture.css">
+  <title>Event buggling & capturing & useCapture</title>
+</head>
+<body>
+  <h1>useCapture - 3rd param in addEventListener</h3>
+
+    <h3>Default - no useCapture</h3>
+  <div class="element element--default element--grandparent">
+    Grandparent element
+    <div class="element element--default element--parent">
+      Parent element
+      <div class="element element--default element--child">
+        Child element
+       </div>
+     </div>
+  </div>
+
+  <h3>useCapture false</h3>
+  <div class="element element--false element--grandparent">
+    Grandparent element
+    <div class="element element--false element--parent">
+      Parent element
+      <div class="element element--false element--child">
+        Child element
+       </div>
+     </div>
+  </div>
+
+  <h3>useCapture true</h3>
+  <div class="element element--true element--grandparent">
+    Grandparent element
+    <div class="element element--true element--parent">
+      Parent element
+      <div class="element element--true element--child">
+        Child element
+       </div>
+     </div>
+  </div>
+
+  <h3>useCapture once true</h3>
+  <div class="element element--once-true element--grandparent">
+    Grandparent element
+    <div class="element element--once-true element--parent">
+      Parent element
+      <div class="element element--once-true element--child">
+        Child element
+       </div>
+     </div>
+  </div>
+
+  <h3>useCapture passive true</h3>
+  <div class="element element--passive-true element--grandparent">
+    Grandparent element
+    <div class="element element--passive-true element--parent">
+      Parent element
+      <div class="element element--passive-true element--child">
+        Child element
+       </div>
+     </div>
+  </div>
+
+  <button class="scroll-top">Scroll to top smoothly with Js</button>
+
+  <script src="use-capture.js"></script>
+</body>
+</html>
