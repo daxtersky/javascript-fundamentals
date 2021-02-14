@@ -1,0 +1,1 @@
+const eventListener = (a: string, b: CallableFunction, c: unknown) => console.log(a, b, c);

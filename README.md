@@ -13,14 +13,7 @@ Build with:
 * HTML5
 * CSS3
 * JavaScript
-
-## Table of contents
-
-1. JavaScript basic principles, rules and conventions - inspired by [Coders Lab](https://coderslab.pl/)
-2. Useful code snippets (snippet tests) - IN FUTURE
-3. RegEx - IN FUTURE
-4. Codi test - IN FUTURE
-5. and hopefully much more
+* TypeScript
 
 ## Contribute
 
