@@ -19,7 +19,7 @@ duck.move();
 
 class Bird extends Animal {
   constructor(name, age, flightLengh) {
-    super(name, age)
+    super(name, age); // 'super' is used to access and call a parent constructor
     this.flightLengh = flightLengh;
   }
   fly() {
