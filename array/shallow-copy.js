@@ -40,11 +40,11 @@ const copyDeepArray1 = [...deepArray];
 
 // ! https://www.samanthaming.com/tidbits/50-how-to-deep-clone-an-array/
 // DEEP COPY with lodash
-const lodashClonedeep = require('lodash.clonedeep');
 // "npm i" and "node shallow-copy.js" in present folder!
+// const lodashClonedeep = require('lodash.clonedeep');
 let arrayDeep = [[['first level', 'second level', 'third level']]];
 const arrayDeepCopy1 = [...arrayDeep]; // * only shallow copy
-const arrayDeepCopy2 = lodashClonedeep(arrayDeep); // * deep copy of nested array!
+// const arrayDeepCopy2 = lodashClonedeep(arrayDeep); // * deep copy of nested array!
 arrayDeep[0][0][2] = 'hacked!';
 // console.log(arrayDeepCopy1);
 // console.log(arrayDeepCopy2);
