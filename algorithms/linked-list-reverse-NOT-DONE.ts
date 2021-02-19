@@ -19,3 +19,7 @@ const linkedList: LinkedList = {
 };
 
 // ! https://www.youtube.com/watch?v=UCv-EmtvPe4
+
+// * BINARY TREES
+// ! https://dev.to/codespresso/elementary-data-structures-with-javascript-binary-trees-part-2-1pl6
+// ! https://dev.to/codespresso/elementary-data-structures-with-javascript-binary-trees-part-3-7f8
