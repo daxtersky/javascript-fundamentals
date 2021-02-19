@@ -20,3 +20,8 @@ console.log(uniqueNumbers2);
 // 3. SORT & ARRAY
 const uniqueNumbers3 = numbers.sort((a, b) => a - b).filter((number, index, array) => number !== array[index + 1]);
 console.log(uniqueNumbers3);
+
+
+// 4. FILTER // ! https://dev.to/patelatit53/22-utility-functions-to-ace-your-javascript-coding-interview-ghg
+const uniqueNumbers4 = numbers.filter((item, index, arr) => arr.indexOf(item) === index);
+console.log(uniqueNumbers4);
