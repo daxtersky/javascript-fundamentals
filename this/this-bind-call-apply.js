@@ -6,15 +6,11 @@ const javascript = {
   name: 'JavaScript',
   description: 'My first programming language!',
   liking: 'I love it :)',
-  displayDetails: function(optionalParam1, optionalParam2) {
+  displayDetails(optionalParam1, optionalParam2) { // the same as... displayDetails: function(optionalParam1, optionalParam2) {
     console.log(this.name, this.description, optionalParam1, optionalParam2);
   },
-  displayLiking: () => { // arrow functions not good as methods
-    console.log(this.name, this.liking);
-  }
 }
 // javascript.displayDetails();
-// javascript.displayLiking();
 
 //  * CALL() allows us to borrow functions and set THIS on function invocation
 function displayNameDescription(optionalParamA = '', optionalParamB = '') {
