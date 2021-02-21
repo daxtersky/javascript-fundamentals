@@ -7,7 +7,7 @@ interface LinkedList {
   next: LinkedList;
 }
 
-const linkedList: LinkedList = {
+const linkedlist: LinkedList = {
   value: 5,
   next: {
     value: 6,
