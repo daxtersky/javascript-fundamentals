@@ -1,4 +1,4 @@
-// * FLATTEN ARRAY with any deep
+// * FLATTEN ARRAY with any deep // recursion
 
 const newArray = [];
 const flattenArray = (items, array) => {
@@ -12,25 +12,3 @@ flattenArray([1, [2, [3, [4]], [5]]], newArray);
 // flattenArray([1, [2, [3]]], newArray);
 
 console.log(newArray);
-
-
-
-
-
-
-
-
-//                                 => arrayItems.forEach(arrayItem => {
-//   const arr = [];
-//   if (Array.isArray(arrayItem)) {
-//     // console.log('arrayItem', arrayItem);
-//     return flatArray(arrayItem);
-//   } else {
-//     console.log('not arrayItem', arrayItem);
-//     return arr.push(arrayItem);
-//   }
-// })
-
-// const foo = flatArray(arrayRandomDeep);
-// console.log(foo);
-//

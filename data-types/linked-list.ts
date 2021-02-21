@@ -5,7 +5,7 @@ interface LinkedList {
   next: LinkedList;
 }
 
-const linkedlist: LinkedList = {
+const list: LinkedList = {
   value: 5,
   next: {
     value: 6,
@@ -16,4 +16,4 @@ const linkedlist: LinkedList = {
   }
 };
 
-console.log(linkedlist);
+console.log(list);

@@ -1,4 +1,4 @@
-// * reverse singly linked list (lista jednokierunkowa)
+// * reverse singly linked list (lista jednokierunkowa) // recursion
 
 // ! https://blog.soltysiak.it/pl/2016/08/10-najpopularniejszych-algorytmicznych-pytan-rekrutacyjnych/
 
