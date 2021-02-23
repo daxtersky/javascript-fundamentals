@@ -19,21 +19,29 @@ function foo() {
 }
 // console.log(foo());
 
-// * THIS IN FAT ARROW
+// * 'THIS' IN FAT ARROW
 
 const javascript = {
   name: 'JavaScript.',
   description: 'My first programming language!',
   liking: 'I love it :)',
+  frameworks: ['React', 'Angular', 'Vue.Js'],
   displayDetails: function() {
     console.log(this.name, this.description);
   },
-  displayLiking: () => { // arrow functions not good as methods // global this
+  displayLiking: () => { // UNDEFINED // arrow functions NOT good as methods // global this
     console.log(this.name, this.liking);
+  },
+  showFrameworks: function func() {
+    this.frameworks.forEach(framework => {
+    // this.frameworks.forEach(function(framework) { // UNDEFINED
+      console.log(`${this.name}: ${framework}`);
+    })
   }
 }
 // javascript.displayDetails();
 // javascript.displayLiking();
+// javascript.showFrameworks();
 
 // ! https://javascript.info/object-methods
 

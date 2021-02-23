@@ -1,6 +1,8 @@
 // ! https://dev.to/anuradha9712/call-apply-bind-methods-in-javascript-4pfn
+// ! https://javascript.info/bind
 
-// * THIS
+// * 'THIS'
+// 'THIS' in fat arrow function => look for 'fat-arrow' file
 
 const javascript = {
   name: 'JavaScript',
@@ -10,9 +12,10 @@ const javascript = {
     console.log(this.name, this.description, optionalParam1, optionalParam2);
   },
 }
-// javascript.displayDetails();
+// javascript.displayDetails('opt1', 'opt2');
 
-//  * CALL() allows us to borrow functions and set THIS on function invocation
+
+//  * CALL() allows us to borrow functions and set THIS on function invocation // expects list of arguments
 function displayNameDescription(optionalParamA = '', optionalParamB = '') {
   console.log(this.name, this.description, optionalParamA, optionalParamB);
 }
@@ -22,7 +25,8 @@ const python = {
 }
 // javascript.displayDetails.call(python, '(optional param A', 'optional param B)');
 // displayNameDescription.call(python);
-// displayNameDescription.call(python, 'optionalParam A', 'optionalParam B');
+// displayNameDescription.call(python, 'optionalParam A', 'optionalParam B'); // list of arguments
+// displayNameDescription.call(python, ...optionalParams); // list of arguments
 
 // * APPLY() optional parameters in array
 const cplusplus = {
