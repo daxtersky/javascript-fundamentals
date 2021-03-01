@@ -39,8 +39,8 @@ const javascript = {
     })
   }
 }
-// javascript.displayDetails();
-// javascript.displayLiking();
+javascript.displayDetails();
+javascript.displayLiking();
 // javascript.showFrameworks();
 
 // ! https://javascript.info/object-methods
@@ -56,3 +56,22 @@ const user = {
 };
 user.exprFn();
 // user.arrowFn();
+
+// * THIS IN CLASS
+
+class Javascript {
+  name = 'JavaScript.';
+  description = 'My first programming language!';
+  liking = 'I love it :)';
+  frameworks = ['React', 'Angular', 'Vue.Js'];
+  displayDetails = function() {
+    console.log(this.name, this.description);
+  };
+  displayLiking = () => { // UNDEFINED // arrow functions NOT good as methods // global this
+    console.log(this.name, this.liking);
+  };
+}
+const js = new Javascript();
+js.displayDetails();
+js.displayLiking();
+

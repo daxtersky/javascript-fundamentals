@@ -1,5 +1,6 @@
 // * CLASS
 
+// ! https://javascript.info/class
 // in Js class is not a class, it's a blueprint of object
 
 class Animal {
