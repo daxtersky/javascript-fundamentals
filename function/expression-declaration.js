@@ -1,3 +1,7 @@
+/**
+ * * FUNCTION EXPRESSION VS FUNCTION DECLARATION
+ */
+
 // * FUNCTION EXPRESSION (ANONYMOUS FUNCTION ASSIGNED TO VARIABLE)
 const expressionFunction = function () {
   console.log('this is expression function');
@@ -11,7 +15,7 @@ function declarationFunction() {
 }
 declarationFunction();
 
-// ! https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
+// 📚 https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
 // function foo1() {
 //   function bar1() {
 //     return 3;

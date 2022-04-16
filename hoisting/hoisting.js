@@ -1,4 +1,7 @@
-// ! https://dev.to/anuradha9712/hoisting-in-javascript-1kmn
+/**
+ * HOISTING
+ * 📚 https://dev.to/anuradha9712/hoisting-in-javascript-1kmn
+ */
 
 // * HOISTING VARIABLES
 // console.log(variable1);

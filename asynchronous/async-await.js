@@ -1,16 +1,20 @@
-// * ASYNC AWAIT
-const fetch = require('node-fetch'); // * make sure to call "npm i" and "node async-await.js" in this folder!!!!!
+/**
+ * * ASYNC AWAIT
+ * 🏃‍♂️ "npm i" and "node async-await.js" in this folder
+ */
 
-// ! https://dev.to/rajatmehra05/what-is-async-await-127p
+const fetch = require('node-fetch');
+
+// 📚 https://dev.to/rajatmehra05/what-is-async-await-127p
 // 1
 async function getInfo() {
-  console.log('a');
+  console.log('async/await a');
   await setTimeout(() => {
-    console.log('b');
+    console.log('async/await b');
   }, 1);
-  console.log('c');
+  console.log('async/await c');
 }
-// getInfo();
+getInfo();
 
 // 2
 async function greeting() {
@@ -19,18 +23,16 @@ async function greeting() {
     setTimeout(() => resolve("...world!"), 1000);
   });
   const result = await promise;
-  console.log(result);
+  console.log('Promise/`setTimeout', result);
 }
-// greeting();
+greeting();
 
-// ! https://dev.to/sagarrth/demystifying-async-await-as-generators-promises-91i
+// 📚 https://dev.to/sagarrth/demystifying-async-await-as-generators-promises-91i
 
 (async function (url) {
   const response = await fetch(url);
   return await response.json();
-})('https://jsonplaceholder.typicode.com/todos/1').then((data) => console.log(data))
-
-//
+})('https://jsonplaceholder.typicode.com/todos/1').then((data) => console.log('iife fetch', data))
 
 function* getData(url) {
   const response = yield fetch(url);
@@ -40,4 +42,4 @@ const iterator = getData('https://jsonplaceholder.typicode.com/todos');
 iterator
   .next()
   .value.then((val) => iterator.next(val).value)
-  .then((data) => console.log(data))
+  // .then((data) => console.log('iterator', data))

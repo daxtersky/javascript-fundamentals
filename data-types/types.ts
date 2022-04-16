@@ -1,8 +1,9 @@
-// * TYPES
-
-// ! https://javascript.info/types
-// ! https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c
-// ! https://kursjs.pl/kurs/super-podstawy/typy-danych.php
+/**
+ * * PRIMITIVE AND NON-PRIMITIVE TYPES
+ * 📚 https://javascript.info/types
+ * 📚 https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c
+ * 📚 https://kursjs.pl/kurs/super-podstawy/typy-danych.php
+ */
 
 // * PRIMITIVE TYPES, they contain a value
   // number,
@@ -22,7 +23,7 @@ const copyObject = oldObject;
 oldObject.prop = 'Changed value!';
 // console.log(oldObject);
 
-// * literal vs constuktor
+// * literal vs constuctor
 const literalString = 'literal';
 const literalObject = { literal: 'object' };
 const contructorObject = new Object({contructor: 'object'});

@@ -1,4 +1,9 @@
-// ! https://css-tricks.com/understanding-async-await/
+/**
+ * * PROMISE
+ */
+
+// 📚 https://css-tricks.com/understanding-async-await/
+
 // const buildSuccessfullRelationship = new Promise((resolve, reject) => {
 //   console.log("I love you, let's be together");
 //   // resolve();
@@ -8,7 +13,8 @@
 //   .catch(() => console.log('No, look for another one, not me... :('))
 //   .finally(() => console.log("...if you don't ask you will never now."));
 
-// ! https://dev.to/qmaximillian/snow-days-and-javascript-promises-48id
+// 📚 https://dev.to/qmaximillian/snow-days-and-javascript-promises-48id
+
 // function willItSnow() {
 //   // return false;
 //   return Math.random() < 0.5;
@@ -30,7 +36,8 @@
 //   )
 //   .catch((error) => console.log('catch error!', error));
 
-// ! https://javascript.info/promise-chaining
+// 📚 https://javascript.info/promise-chaining
+
 const fetchedObject = { name: 'Miko', age: 38 };
 
 loadFirstPromise = () => {

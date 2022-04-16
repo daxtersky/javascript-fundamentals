@@ -1,7 +1,7 @@
-// * PROTOTYPE
-
-// ! https://javascript.info/prototype-inheritance
-// __proto__ getter and setter for [[Prototype]] of the object
+/**
+ * 📚 PROTOTYPE ★ https://javascript.info/prototype-inheritance
+ * __proto__ is a historical getter and setter for [[Prototype]] of the object
+ */
 
 // 1 way of prototype inheritance
 const animalA = {
@@ -39,9 +39,11 @@ console.log('hasOwnProperty... eats?', longBeakedDolphin.hasOwnProperty('eats'))
 console.log('hasOwnProperty... swims?', longBeakedDolphin.hasOwnProperty('swims'));
 console.log('hasOwnProperty... likesCold?', longBeakedDolphin.hasOwnProperty('likesCold'));
 
-//
-// ! https://dev.to/anuradha9712/prototype-and-prototypal-inheritance-in-javascript-4j6n
-// ! https://dev.to/mvganeshkumar06/prototypes-in-javascript-40md
+/**
+ * 📚 https://dev.to/anuradha9712/prototype-and-prototypal-inheritance-in-javascript-4j6n
+ * 📚 https://dev.to/mvganeshkumar06/prototypes-in-javascript-40md
+ */
+
 
 const arr = ['a', 'b'];
 // console.log(typeof arr, '/', arr);

@@ -1,6 +1,7 @@
-// * STATEMENT VS EXPRESSION
-
-// ! https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74
+/**
+ * * STATEMENT VS EXPRESSION
+ * 📚 https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74
+ */
 
 // * EXPRESSION - unit of code that can be evaluated to a value
 

@@ -1,7 +1,9 @@
-//// //// //// REGULAR EXPRESSIONS' BASICS //// //// ////
+/**
+ * REGULAR EXPRESSIONS' BASICS
+ * 📚 https://www.youtube.com/watch?v=VrT3TRDDE4M&t=348s
+ */
 
-//// //// Intro
-// With slash / we can create regular expression
+// * With slash / we can create regular expression
 
 let regex1 = /^characters$/i;
 console.log('regex1', regex1);
@@ -29,28 +31,25 @@ console.log(charsInSingleQuotes);
 let charsInBackticks = `Same goes to \bbackticks`;
 console.log(charsInBackticks);
 
-//// //// special characters in strings
+// * special characters in strings
 // special characters for the beggining and the end of the string:
 // /^string$/
 let stringOfSpecialChars = "[({})]\\^$.|?*+"; // string
 let regex3 = /\[\(\{\}\)\]\\\^\$.\|\?\*\+/; // regular expression
 console.log( "specialChars...", regex3.test(stringOfSpecialChars)  );
 
-//// //// use cases
+// * use cases
 //// validation - it is a number: with + sign somewhere, digital numbers, spaces and dash?
 let phoneNum = "+48 693 444 007 -++--";
 
 let isValidNum = phoneNum.match(/^[\+\d\s\-]+$/);
 console.log(`${phoneNum} is ${isValidNum ? 'valid' : 'invalid'} number`);
 
-//// extraction
+// * extraction
 let someLongString = "Mikey is trying to learn programming. Mikey finds it interesting, but kinda hard. Mikey Mikey, poor Mikey";
 let extractWord = someLongString.match(/Mikey/g);
 console.log('How many times Mikey? It\'s:', extractWord.length);
 
-//// replacement
+// * replacement
 let replaceWord = someLongString.replace(/Mikey/g, "Chłopek");
 console.log(replaceWord);
-
-//// source link :
-// https://www.youtube.com/watch?v=VrT3TRDDE4M&t=348s

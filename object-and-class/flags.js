@@ -1,6 +1,8 @@
-// * OBJECT'S PROPERTY FLAGS AND DESCRIPTIONS
-
-// ! https://javascript.info/property-descriptors
+/**
+ * * OBJECT'S PROPERTY FLAGS AND DESCRIPTIONS
+ * 📚 https://javascript.info/property-descriptors
+ * writable, enumerable and configurable
+ */
 
 
 // * WRITABLE

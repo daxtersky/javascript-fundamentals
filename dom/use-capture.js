@@ -1,6 +1,8 @@
-// * event bubbling, event capturing, useCapture
+/**
+ * DOM - event bubbling, event capturing, useCapture
+ * 📚 https://blog.logrocket.com/8-dom-features-you-didnt-know-existed-ec2a0a28fd89/
+ */
 
-// ! https://blog.logrocket.com/8-dom-features-you-didnt-know-existed-ec2a0a28fd89/
 window.addEventListener('DOMContentLoaded', () => {
   const grandParentDefault = document.getElementsByClassName('element--default element--grandparent')[0];
   const parentDefault = document.getElementsByClassName('element--default element--parent')[0];

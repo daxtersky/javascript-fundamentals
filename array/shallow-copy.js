@@ -1,8 +1,10 @@
-// * SHALLOW COPY, DEEP COPY
-
-// ! https://www.samanthaming.com/tidbits/50-how-to-deep-clone-an-array/
+/**
+ * * ARRAY - SHALLOW COPY, DEEP COPY
+ * 📚 https://www.samanthaming.com/tidbits/50-how-to-deep-clone-an-array/
+ */
 
 // * copy primite value and element in array (object)
+
 let originalPrimitive = 16;
 let copyPrimitive = originalPrimitive;
 // console.log('original', originalPrimitive, 'copy', copyPrimitive);
@@ -15,7 +17,7 @@ const copyArr = originalArr;
 copyArr[0] = 1335464; // * and original array is getting affected - arrays (objects) are refference types
 // console.log('original', originalArr, 'copy', copyArr);
 
-// ! https://dev.to/rahxuls/what-is-shallow-copy-in-javascript-47hg
+// 📚 https://dev.to/rahxuls/what-is-shallow-copy-in-javascript-47hg
 
 const array = ['😉', '🙂', '😎'];
 
@@ -38,7 +40,8 @@ deepArray[0][0] = '😡'; // * no shallow copy with nested arrays! Lodash for he
 const copyDeepArray1 = [...deepArray];
 // console.log(copyDeepArray1);
 
-// ! https://www.samanthaming.com/tidbits/50-how-to-deep-clone-an-array/
+// 📚 https://www.samanthaming.com/tidbits/50-how-to-deep-clone-an-array/
+
 // DEEP COPY with lodash
 // "npm i" and "node shallow-copy.js" in present folder!
 // const lodashClonedeep = require('lodash.clonedeep');

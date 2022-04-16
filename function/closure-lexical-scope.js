@@ -1,7 +1,10 @@
-// * CLOSURE
-
-// ! https://dev.to/anuradha9712/closures-in-javascript-28h7
-// ! https://javascript.info/closure
+/**
+ * * CLOSURE
+ * 📚 https://dev.to/anuradha9712/closures-in-javascript-28h7
+ * 📚 https://javascript.info/closure
+ * 📚 https://alligator.io/js/closures/
+ * 📚 https://www.digitalocean.com/community/tutorials/understanding-scope-in-javascript
+ */
 
 function outer(){
   const closureExample = "Closure is when inner function has access to outers function's scope.";
@@ -14,14 +17,7 @@ function outer(){
 }
 outer();
 
-// https://alligator.io/js/closures/
-// https://scotch.io/tutorials/understanding-scope-in-javascript#toc-closures
-
-
-// * LEXICAL SCOPE
-// ! https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope
-
-// outer function don't have access to child function's properties
+// * LEXICAL SCOPE - outer function don't have access to child function's properties
 
 function grandparentFn() {
   const grandparent = 'grandparent';

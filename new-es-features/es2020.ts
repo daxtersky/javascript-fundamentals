@@ -1,4 +1,7 @@
-// ! https://www.digitalocean.com/community/tutorials/js-es2020
+/**
+ * * ES2020
+ * 📚 https://www.digitalocean.com/community/tutorials/js-es2020
+ */
 
 // * PRIVATE CLASS VARIABLE
 class Message {

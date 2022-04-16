@@ -1,7 +1,8 @@
-// * CLASS
-
-// ! https://javascript.info/class
-// in Js class is not a class, it's a blueprint of object
+/**
+ * * CLASS 
+ * 📚 https://javascript.info/class
+ * in JS class is not a class, it's a blueprint of object
+ */
 
 class Animal {
   constructor(name, age) { // 'constructor' function intended to be used with new prefix

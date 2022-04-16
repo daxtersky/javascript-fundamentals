@@ -1,4 +1,7 @@
-// ! https://dev.to/anuradha9712/currying-in-javascript-3l1j
+/**
+ * * CURRYING 
+ * https://dev.to/anuradha9712/currying-in-javascript-3l1j 
+ */
 
 // * FAT ARROW without BIND
 const multiplyTwoNumbers = (a, b) => {

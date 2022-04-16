@@ -1,4 +1,6 @@
-// * PRIVATE & PROTECTED
+/**
+ * * PRIVATE & PROTECTED
+ */
 
 class Woman {
   public name: string;

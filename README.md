@@ -15,6 +15,18 @@ Build with:
 * JavaScript
 * TypeScript
 
+## How to run ts files (Linux / MacOS)
+`tsc main.ts | node main.js`
+
+## Comments
+```
+/**
+ * * MAIN DEFINITION
+ * 📚 https://link-example.com
+ * Interesting insights and explanations from above link
+ */
+ ```
+
 ## Contribute
 
 Feel free to add any piece of code which you think is worth knowing, or practicing in the broad fiels of *Web Development*

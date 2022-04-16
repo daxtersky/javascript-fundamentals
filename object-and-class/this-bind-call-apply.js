@@ -1,5 +1,10 @@
-// ! https://dev.to/anuradha9712/call-apply-bind-methods-in-javascript-4pfn
-// ! https://javascript.info/bind
+/**
+ * * THIS in CLASS 
+ * 📚 https://javascript.info/bind
+ * 📚 https://javascript.info/prototype-inheritance 
+ * this is always the object before the dot
+ * 📚 https://dev.to/anuradha9712/call-apply-bind-methods-in-javascript-4pfn
+ */
 
 // * 'THIS'
 // 'THIS' in fat arrow function => look for 'fat-arrow' file

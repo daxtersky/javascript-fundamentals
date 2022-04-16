@@ -1,4 +1,7 @@
-// * falsy VS truthy
+/**
+ * * falsy VS truthy
+ */
+
 null
 undefined
 ''

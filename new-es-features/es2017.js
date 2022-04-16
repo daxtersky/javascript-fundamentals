@@ -1,4 +1,7 @@
-// ! https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/
+/**
+ * * ES2017
+ * 📚 https://www.freecodecamp.org/news/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e/
+ */
 
 // * OBJECT VALUES
 const cities = { Warsaw: 3, Wroclaw: 2, Zakopane: 1 };

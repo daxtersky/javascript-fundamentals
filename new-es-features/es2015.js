@@ -1,4 +1,7 @@
-// https://davidwalsh.name/array-destructuring & https://davidwalsh.name/es6-features
+/**
+ * * ES2015
+ * 📚 https://davidwalsh.name/array-destructuring & https://davidwalsh.name/es6-features
+ */
 
 // * DESTRUCTURING
 const destructuredObject = { prop1: 'one', prop2: 'two' };

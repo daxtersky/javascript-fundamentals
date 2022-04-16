@@ -1,10 +1,11 @@
-// * CLASS' STATIC
+/**
+ * * STATIC METHOD 
+ * 📚 https://javascript.info/static-properties-methods
+ * Static is assigned to the class itself, not to it's instances (prototypes)
+ * Good for utility classes that don't change
+ * Good for database related classes
+ */
 
-// ! https://javascript.info/static-properties-methods
-
-// are assigned to the class itself, not to it's instances (prototypes)
-// remembers
-// for utility classes that don't change * for database related classes
 class JavaScript {
   static shortName = 'JS';
   static getName() {

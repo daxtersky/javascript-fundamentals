@@ -1,7 +1,8 @@
-// * basic array methods
-
-// ! https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5
-// ! https://doesitmutate.xyz/
+/**
+ * * ARRAY - BASIC ARRAY METHODS
+ * 📚 https://doesitmutate.xyz/
+ * 📚 https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5
+ */
 
 const week: string[] = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 

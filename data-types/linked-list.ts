@@ -1,4 +1,6 @@
-// * LINKED LIST
+/**
+ * * LINKED LIST
+ */
 
 interface LinkedList {
   value: number;

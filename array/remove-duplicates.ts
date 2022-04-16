@@ -1,6 +1,7 @@
-// ! https://dev.to/hi_iam_chris/how-to-remove-duplicates-from-javascript-array-5bb7
-
-// * 3 WAYS TO REMOVE DUPLICATES FROM ARRAY
+/**
+ * * ARRAY - THREE WAYS TO REMOVE DUPLICATES FROM ARRAY
+ * 📚 https://dev.to/hi_iam_chris/how-to-remove-duplicates-from-javascript-array-5bb7
+ */
 
 const numbers = [1, 2, 3, 1, 2, 3, 1, 2, 3];
 
@@ -22,6 +23,6 @@ const uniqueNumbers3 = numbers.sort((a, b) => a - b).filter((number, index, arra
 console.log(uniqueNumbers3);
 
 
-// 4. FILTER // ! https://dev.to/patelatit53/22-utility-functions-to-ace-your-javascript-coding-interview-ghg
+// 4. FILTER // 📚 https://dev.to/patelatit53/22-utility-functions-to-ace-your-javascript-coding-interview-ghg
 const uniqueNumbers4 = numbers.filter((item, index, arr) => arr.indexOf(item) === index);
 console.log(uniqueNumbers4);
