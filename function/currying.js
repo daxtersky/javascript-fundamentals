@@ -1,6 +1,6 @@
 /**
  * * CURRYING 
- * https://dev.to/anuradha9712/currying-in-javascript-3l1j 
+ * 📚 https://dev.to/anuradha9712/currying-in-javascript-3l1j 
  */
 
 // * FAT ARROW without BIND
