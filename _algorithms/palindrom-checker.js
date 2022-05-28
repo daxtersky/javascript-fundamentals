@@ -26,3 +26,4 @@ isPalindrom(word1);
 isPalindrom(word2);
 isPalindrom(word3);
 isPalindrom(word4);
+isPalindrom('amkaakma');
